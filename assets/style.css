@@ -1,80 +1,55 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+
 
 body {
-    background-color: #bcbfc6;
+    background-color: rgb(119, 123, 130);
     margin: 10px;
+    color:rgb(225, 198, 198)
 }
 
-.header{
-    background-color: #8971ae;
-}
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(225, 198, 198);
+    font-size: 300%;
+   
+  }
+  img{
+    max-height: 500px;
+    width: cover
 
-.header h1{
-    padding: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(197, 188, 206);
-    font-size: 30px;
-    display: inline-block;   
-}
+  }
 
-.header nav {
-    padding-top: 30px;
-    margin-right: 20px;
-    float:right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-}
-
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-   display: inline-block;
-    margin-left: 25px;
-}
-
-
-.picture {
-    height: 450px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url( "images/background.jpg");
-    background-size: cover;
-    background-position: center;
-}
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 350 px;
+  }
+ 
+  .AboutMe{
+    display: inline;
+    padding: 30px;
+  }
 
 main{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: space_around;
+
     margin-top: 2%;
 }
 
-main aside{
-    color: rgb(47, 16, 78);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
 
 .work{
-    flex: 1 0 0;
-    align-items: center;
+    display: inline;
+    padding: 10 px;
+    color: aliceblue;
+  
+  
 }
 
   .work img {
-    width: 33%;
-    min-width: 400px;
+    width: 100%;
     
   }
 
-  .first img {
-    width: 100%;
-    min-width: 400px;
-  }
+
  
